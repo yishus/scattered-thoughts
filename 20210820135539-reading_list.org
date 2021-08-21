@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b0a74fbd-d29f-4751-9c4c-40e4c47a3f7a
+:END:
+#+title: Reading List
+
+* What information will help me in this reading list
+** The context in which this was found
+** Scrap the information to tag it
+** Related articles

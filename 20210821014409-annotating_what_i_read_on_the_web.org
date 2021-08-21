@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5f9e4d76-c24e-4abb-8e40-24729d188f56
+:END:
+#+title: Annotating what I read on the web
+
+* Social
+Being able to see what other people have annotated
+* Personal knowledge
+Related notes I have already written about
+
+* Prior art
+** [[https://web.hypothes.is][Hypothesis]]
