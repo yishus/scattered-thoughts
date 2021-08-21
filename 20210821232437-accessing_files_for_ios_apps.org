@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       91c20597-04db-4988-b18c-39da7119f613
+:END:
+#+title: Accessing files for iOS apps
+
+* FileManager
+https://developer.apple.com/documentation/foundation/filemanager
+
+Access iCloud documents with ~url(forUbiquityContainerIdentifier:)~
+Local ~documentDirectory~
+
+* UIDocument
+https://developer.apple.com/documentation/uikit/uidocument
+
+Adopts NSFilePresenter protocol
+UIManagedDocument syncs Coredata and files
+
+https://developer.apple.com/videos/play/wwdc2015/234/
+
+* UIDocumentBrowserViewController
+https://developer.apple.com/documentation/uikit/uidocumentbrowserviewcontroller
+
+File browser
+
+* UIDocumentPickerViewController
+https://developer.apple.com/documentation/uikit/uidocumentpickerviewcontroller
+
+File picker for files outside code sandbox
+
+* DocumentGroup (SwiftUI scene)
+SwiftUI's version of UIDocumentBrowserViewController. Not sure how a functional app can use it ([[https://stackoverflow.com/a/63244717][rant]])
+
+* ReferenceFileDocument
+https://developer.apple.com/documentation/swiftui/referencefiledocument
+
+Really nice SwiftUI protocol to serialize and deserialize file data.
+
+* Working with multiple SwiftUI scenes
+https://swiftwithmajid.com/2020/08/26/managing-scenes-in-swiftui/
+
+* iCloud
+https://developer.apple.com/library/archive/documentation/General/Conceptual/iCloudDesignGuide/Chapters/DesigningForDocumentsIniCloud.html
+
+* Examples
+https://developer.apple.com/documentation/uikit/documents_data_and_pasteboard/synchronizing_documents_in_the_icloud_environment
