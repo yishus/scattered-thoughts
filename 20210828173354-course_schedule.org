@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       14dc3b9a-a4c7-4352-a176-555b8171602a
+:END:
+#+title: Course Schedule
+
+Leetcode 207
+
+* Optimisation
+** Prevent repeated checks on a visited node
+** Space improvement noting white, grey, black states on node
+
+* Easiest to reach for solution - cycle detection in a directed graph
+
+* Non cycle check solution
+https://leetcode.com/problems/course-schedule/discuss/1386422/simple-python-solution-99100
+
+Simple and specific to this question
+
+* Topological sort
+https://leetcode.com/discuss/general-discussion/1078072/introduction-to-topological-sort
+
+We are still doing cycle detection.
+
+* Indegree counting
+https://leetcode.com/problems/course-schedule/discuss/1278413/Python-Indegree-counting-97-fast-95-memory-12-lines
+
+The crux of cycle detection with topological sort.
